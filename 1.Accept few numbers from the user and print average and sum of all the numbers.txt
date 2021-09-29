@@ -1,0 +1,26 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i,  sum = 0, numbers=0;
+            float  avg;
+            Console.WriteLine("Enter how many number you want");
+            int n = Convert.ToInt32(Console.ReadLine());
+            for(i=0;i<n;i++)
+            {
+                numbers =  Convert.ToInt32(Console.ReadLine());
+                sum = sum + numbers;
+            }
+            avg = sum / n;
+            Console.WriteLine("The Sum is : " + sum);
+            Console.WriteLine("The Average is : " + avg);
+
+
+
+        }
+    }
+}

@@ -1,0 +1,23 @@
+using System;
+class Program {
+  static void Main() {
+      int n;
+      Console.WriteLine("Enter the number");
+      n = Convert.ToInt32(Console.ReadLine());
+      if(n<=7)
+      {
+          if(n<=5)
+          {
+          Console.WriteLine("Working Day");
+          }
+          else
+          {
+              Console.WriteLine("Holiday");
+          }
+      }
+      else
+      {
+          Console.WriteLine("Invalid date");
+      }
+  }
+}
